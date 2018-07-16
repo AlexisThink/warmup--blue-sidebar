@@ -1,0 +1,28 @@
+body {
+  margin: 0; }
+
+.sidebar {
+  width: 60px;
+  height: 1000px;
+  padding: 20px 5px;
+  background: linear-gradient(#6463ef, #6b00ef); }
+  .sidebar__image {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; }
+    .sidebar__image img {
+      border-radius: 100%;
+      width: 50px;
+      height: 50px; }
+  .sidebar__icon {
+    width: 100%;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; }
+  .sidebar__icon:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px; }
